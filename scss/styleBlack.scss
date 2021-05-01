@@ -1,0 +1,49 @@
+body{
+	//Contrast Class
+	&.contrast{
+		background: black;
+
+		p{color: white;}
+		h1,h2,h3,h4,h5,h6{color: white;}
+
+		.g-bg-color--sky-light{
+			background: black !important;
+		}
+
+		.s-btn--primary-bg{
+			background: white !important;
+			color: black !important;
+			border-color: white !important;
+		}
+
+		.g-color--primary{
+			color: white !important;
+		}
+
+		.g-bg-color--primary-ltr.bgAbout{
+			background: black !important;
+		}
+
+		.g-color--primary.bgAbout{
+			color: black !important;
+		}
+
+		.g-bg-color--primary.bgFac{
+			background-color: black !important;
+		}
+	}
+
+	//Zoom Class
+
+	&.zoom1{
+		p{
+			font-size: 1.5375rem !important
+		}
+
+		h3{
+			font-size: 1.545rem !important;
+		}
+	}
+
+}
+
