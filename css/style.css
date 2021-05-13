@@ -1,6 +1,10 @@
 /*----------------------------------
 	Common HTML elements and more for easier usage
 ------------------------------------*/
+
+.logoAir {
+  width: 15%;
+}
 html {
   overflow-x: hidden; }
 
@@ -1023,7 +1027,7 @@ a {
 ------------------------------ */
 .s-header__container {
   width: 100%;
-  height: auto;
+  height: 200px;
   display: table;
   padding: .75rem 1.875rem; }
   .s-header__container:before, .s-header__container:after {
