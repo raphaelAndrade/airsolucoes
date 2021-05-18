@@ -2,6 +2,27 @@
 	Common HTML elements and more for easier usage
 ------------------------------------*/
 
+.menutopo {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.menutopo li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.menutopo li a {
+  color: white;
+  font-size: 18px;
+}
+
+.s-header__shrink .menutopo li a {
+  color: black
+}
+
 .logoAir {
   width: 15%;
 }
