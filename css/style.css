@@ -2,6 +2,12 @@
 	Common HTML elements and more for easier usage
 ------------------------------------*/
 
+@media only screen and (max-width: 600px) {
+  .s-header__logo-link {
+    width: 280% !important;
+  }
+}
+
 .menutopo {
   list-style: none;
   margin: 0;
